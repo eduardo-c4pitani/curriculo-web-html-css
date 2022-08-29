@@ -1,101 +1,100 @@
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Currículo</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hind&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+<body>
+    <div class="main">
+        <aside>
+            <img src="img/portifolio.jpg" alt="image">
+            <h1>Eduardo Capitani</h1>
+            <p class="description">Desenvolvedor Back-end Jr.</p>
+        </aside>
+        <section class="expertise">
+            <div class="info">
+                <h3 class="title">Experiencia</h3>
+                <div class="c">
+                    <div class="habilidade pr-3rem">
+                        <h3>Auxiliar de desenvolvimento</h3>
+                        <p>IDS Software e Assessoria | jun de 2022 - o momento</p>
+                    </div>
 
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <aside>
-        <header>
-          <img src="./img/portifolio.jpg" alt="eduardo" />
-        </header>
-        <article style="border-top: 3rem;">
-          <h1>Eduardo Capitani</h1>
-          <p>
-            Desenvolvedor back-end jr.
-          </p>
-        </article>
-      </aside>
-      <main>
-        <section>
-          <header>
-            <h2 style="margin-right: 4rem; margin-top: 4rem; margin-left: 4rem;">Experiência</h2>
-          </header>
-          <article style="margin-right: 4rem; margin-left: 4rem;">
-            <div>
-              <h3>Auxiliar de desenvolvimento</h3>
-              <p>
-               IDS Software e Consultoria | Junho, 2022 - atualmente
-              </p>
+                    <div class="habilidade pr-3rem">
+                        <h3>Desenvolvedor Front-end Junior</h3>
+                        <p>Gentus sistemas médicos | jan de 2022 - fev de 2022</p>
+                    </div>
+                    <br>
+                    <div class="habilidade pr-3rem">
+                        <h3>Analista de Suporte</h3>
+                        <p>Viasoft | fev de 2021 - out de 2021</p>
+                    </div>
+
+                    <div class="habilidade pr-3rem">
+                        <h3>Suporte tecnico</h3>
+                        <p>Sponte | fev de 2020 - jun de 2020</p>
+                    </div>
+                </div>
             </div>
-            <div >
-              <h4>Fenômeno da Internet</h4>
-              <p>
-                O empenho em analisar o comprometimento entre as equipes desafia
-                a capacidade de equalização das formas de ação
-              </p>
-            </div >
-          </article>
-          <article style="margin-right: 4rem; margin-left: 4rem;">
-            <div>
-              <h5>Fenômeno da Internet</h5>
-              <p>
-                O empenho em analisar o comprometimento entre as equipes desafia
-                a capacidade de equalização das formas de ação
-              </p>
+            <div class="info">
+                <h3 class="title-skills">Skills</h3>
+                <div class="skills">
+                    <h3>Java</h3>
+                    <progress max="100" value="90"></progress>
+                    <div>
+                        <h3>HTML</h3>
+                        <progress max="100" value="60"></progress>
+                    </div>
+                    <div>
+                        <h3>CSS</h3>
+                        <progress max="100" value="60"></progress>
+                    </div>
+                    <div>
+                        <h3>Angular</h3>
+                        <progress max="100" value="20"></progress>
+                    </div>
+                </div>
             </div>
-            <div>
-              <h6>Fenômeno da Internet</h6>
-              <p>
-                O empenho em analisar o comprometimento entre as equipes desafia
-                a capacidade de equalização das formas de ação
-              </p>
+            <div class="info">
+                <h3 class="title">Contato</h3>
+                <div>
+                    <h4>Entre em contato através do formulário abaixo.</h4>
+                    <form action="https://formspree.io/f/xnqrnwjy" method="post">
+                        <div class="contatos">
+                            <div class="row">
+                                <label for="name">
+                                    Nome
+                                    <input class="textos" required type="text" name="name">
+                                </label>
+                            </div>
+                            <div class="row">
+                                <label for="email">
+                                    E-mail
+                                    <input class="textos" required type="text" name="email">
+                                </label>
+                            </div>
+                            <div class="row">
+                                <label for="phone">
+                                    Telefone
+                                    <input class="textos" required type="text" name="phone">
+                                </label>
+                            </div>
+                        </div>
+                        <label for="message">
+                            Mensagem
+                            <textarea name="message" cols="30" rows="10"></textarea>
+                        </label>
+                        <button type="submit" class="button">Enviar</button>
+                    </form>
+                </div>
             </div>
-          </article>
         </section>
-        <section class="my-skills">
-          <header>
-            <h2>Skills</h2>
-          </header>
-          <article>
-            <div>
-              <h3>HTML</h3>
-              <progress value="30" max="100">30%</progress>
-            </div>
-            <div>
-              <h3>CSS</h3>
-              <progress value="20" max="100">20%</progress>
-              <div>
-                <h3>Javascript</h3>
-                <progress value="5" max="100">5%</progress>
-              </div>
-              <div>
-                <h3>Angular</h3>
-                <progress value="0" max="100">0%</progress>
-              </div>
-            </div>
-          </article>
-        </section>
-      </main>
+
     </div>
-  </body>
+</body>
+
 </html>
